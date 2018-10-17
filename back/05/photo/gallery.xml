@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="TAISHOUAYAKASHIKITAN"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	frameWidth="20"
+	thumbPosition="LEFT"
+	thumbColumns="4"
+	thumbRows="5"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="640"
+	maxImageHeight="640"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="thumbs/"
+	
+>
+
+<image imageURL="images/01.jpg" thumbURL="thumbs/01.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/02.jpg" thumbURL="thumbs/02.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/03.jpg" thumbURL="thumbs/03.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/04.jpg" thumbURL="thumbs/04.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/05.jpg" thumbURL="thumbs/05.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/06.jpg" thumbURL="thumbs/06.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/07.jpg" thumbURL="thumbs/07.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/08.jpg" thumbURL="thumbs/08.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/09.jpg" thumbURL="thumbs/09.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/10.jpg" thumbURL="thumbs/10.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/11.jpg" thumbURL="thumbs/11.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/12.jpg" thumbURL="thumbs/12.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/13.jpg" thumbURL="thumbs/13.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/14.jpg" thumbURL="thumbs/14.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/15.jpg" thumbURL="thumbs/15.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/16.jpg" thumbURL="thumbs/16.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/17.jpg" thumbURL="thumbs/17.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/18.jpg" thumbURL="thumbs/18.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/19.jpg" thumbURL="thumbs/19.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/20.jpg" thumbURL="thumbs/20.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/21.jpg" thumbURL="thumbs/21.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/22.jpg" thumbURL="thumbs/22.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/23.jpg" thumbURL="thumbs/23.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/24.jpg" thumbURL="thumbs/24.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/25.jpg" thumbURL="thumbs/25.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/26.jpg" thumbURL="thumbs/26.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/27.jpg" thumbURL="thumbs/27.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/28.jpg" thumbURL="thumbs/28.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/29.jpg" thumbURL="thumbs/29.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/30.jpg" thumbURL="thumbs/30.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/31.jpg" thumbURL="thumbs/31.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/32.jpg" thumbURL="thumbs/32.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/33.jpg" thumbURL="thumbs/33.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/34.jpg" thumbURL="thumbs/34.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/35.jpg" thumbURL="thumbs/35.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/36.jpg" thumbURL="thumbs/36.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/37.jpg" thumbURL="thumbs/37.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/38.jpg" thumbURL="thumbs/38.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/39.jpg" thumbURL="thumbs/39.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/40.jpg" thumbURL="thumbs/40.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/41.jpg" thumbURL="thumbs/41.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/42.jpg" thumbURL="thumbs/42.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/43.jpg" thumbURL="thumbs/43.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+<image imageURL="images/44.jpg" thumbURL="thumbs/44.jpg" linkURL="" linkTarget="" ><caption></caption></image>
+</simpleviewergallery>

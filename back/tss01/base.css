@@ -1,0 +1,83 @@
+body {
+background: #000;
+color: #FFFFFF;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+img,table {
+margin: 0;
+padding: 0;
+border: none;
+}
+
+a { text-decoration: none; color:#fc0;}
+a:hover { text-decoration: underline;}
+
+.sml {font-size: 10px;}
+.glay {color:#bbb;}
+.red {color:#900;}
+.ylw {color:fc0;}
+
+/*--- êFÅX ---*/
+
+#main {
+margin: 0 auto;
+padding: 0;
+width: 800px;
+background: url(img/main_loop.gif) center top;
+}
+
+#main .head {
+margin: 0;
+padding: 430px 30px 0 50px;
+background: url(img/top.jpg) no-repeat left top;
+text-align: left;
+}
+
+#main .contents {
+width: 460px;
+font-size: 12px;
+line-height: 1.6;
+}
+
+#main .end {
+background: url(img/main_end.gif) no-repeat left top;
+height: 30px;
+}
+
+#main h2 {
+margin: 10px 0;
+padding: 4px;
+font-size: 12px;
+border-bottom: dotted 1px #fff;
+}
+
+#main p {
+margin: 10px 0 30px 0;
+}
+
+#main table.nml {
+margin: 10px auto;
+border-top: solid 1px #fff;
+border-left: solid 1px #fff;
+font-size: 12px;
+}
+
+#main table.nml th{
+padding: 5px;
+background: #fff;
+color: #000;
+border-right: solid 1px #fff;
+border-bottom: solid 1px #fff;
+font-size: 12px;
+}
+
+#main table.nml td{
+padding: 5px;
+border-right: solid 1px #fff;
+border-bottom: solid 1px #fff;
+font-size: 12px;
+text-align: center;
+}
