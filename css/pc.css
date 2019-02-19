@@ -1,7 +1,10 @@
 body {
-background: #999;
-color: #000;
-margin: 10 5;
+background: #FFFFFF;
+color: #666;
+margin: 0;
+padding: 0;
+height: 100%;
+font-size: 1.1em;
 }
 
 img {
@@ -10,50 +13,210 @@ img {
 	line-height: 0;
 }
 
-.content_wrapper {
-	text-align: center;
-	border-radius: 10px;
-	width: 300px;
-	height: 300px;
-	background: #ffffff;
-	color: #999;
-	padding: 20px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
-    margin: auto;
+ul {
+	margin: 0;
+	padding: 0;
 }
 
-.theatre {
+a {
+	text-decoration: none;
+}
+
+/* header */
+
+.header {
+	height: 70px;
+}
+
+.header .logo {
+	display: block;
+	padding: 24px 0 0 20px;
+	float: left;
+}
+
+.header .menu {
+	float: right;
+	max-width: 20%;
+	min-width: 120px;
+	height: 68px;
+	background: #f0b236 url(../img/headmenu_top.png) center center;
+	background-size: 60px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.mainphoto {
+	width: 100%;
+	height: 400px;
+	background: #eee url(../img/top.jpg) center center;
+	background-size:cover;
+	clear: both;
+	border-top: 10px solid #ddd ;
+	border-bottom: 10px solid #ddd ;
+}
+
+.mainphoto .banner {
+	margin-top: 300px;
+	max-width: 320px;
+}
+
+.subphoto {
+	width: 100%;
+	height: 200px;
+	background: #eee url(../img/top.jpg) center center;
+	background-size:cover;
+	clear: both;
+	border-top: 10px solid #ddd ;
+	border-bottom: 10px solid #ddd ;
+}
+
+.subphoto .banner {
+	margin-top: 100px;
+	max-width: 320px;
+}
+
+/* footer */
+
+.footer {
+	background: #ddd;
+	text-align: center;
+	height: 120px;
+	padding-top: 20px;
+}
+
+.footer h1 {
+	font-size: 1.1em;
+	margin: 0 0 6px 0;
+	color: #666;
+}
+
+.footer a {
+	margin: 4px;
+}
+
+/* 共通 */
+
+h1 {
+	margin: 20px 0 4px 0;
+	clear: both;
+}
+
+.contents h1.theaterh1 {
+	background: url(../img/icon_orange.png) left center;
+	background-size: 14px 14px;
+	background-repeat: no-repeat;
+	padding: 6px 0 6px 20px;
+}
+
+.contents h1.gameh1 {
+	background: url(../img/icon_blue.png) left center;
+	background-size: 14px 14px;
+	background-repeat: no-repeat;
+	padding: 6px 0 6px 20px;
+}
+
+/* contents */
+
+.contents {
+	min-height: calc(100vh - 230px);
+}
+
+.contents .mainmenu  {
+	margin: 20px;
+}
+
+.contents .mainmenu a {
+	width: 100%;
+	padding: 20px 0;
+	background: #999;
+	text-align: center;
+	display: block;
+	border-radius: 4px;
+} 
+
+.contents .mainmenu .theater {
+	width: 49%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.contents .mainmenu .game {
+	width: 49%;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.contents .mainmenu .theater  a {
 	background: #f0b236;
-	display: inline-block;
-	width: 40%;
-	margin: 40px auto;
-	text-align: center;
-	border-radius: 4px;
-	padding: 20px 0;
-	color: #ffffff;
-	font-weight: bold;
-	text-decoration: none;
+	margin-bottom: 6px;
 }
 
-.game {
+.contents .mainmenu .game  a {
 	background: #74b5ca;
-	display: inline-block;
-	width: 40%;
-	margin: 40px auto;
-	text-align: center;
-	border-radius: 4px;
-	padding: 20px 0;
-	color: #ffffff;
-	font-weight: bold;
-	text-decoration: none;
+	margin-bottom: 6px;
 }
 
-ol {
+.contents ul {
+	clear: both;
+	margin: 20px;
+}
+
+/* li関係 */
+
+.contents li {
 	list-style: none;
-	margin: none;
-	text-align: left;
+	min-height: 20px;
+	font-weight: bold;
+	border-bottom: dashed 1px;
+	margin-bottom: 10px;
+}
+
+.contents li.game {
+	color: #5197ae;
+}
+
+.contents li.theater {
+	color: #dc9a16;
+}
+
+.contents li p {
+	margin: 4px;
+	padding: 0;
+}
+
+.contents li a {
+	display: block;
+	text-decoration: none;
+	margin: 4px;
+}
+
+.contents li.game a {
+	color: #5197ae;
+}
+
+.contents li.theater a {
+	color: #dc9a16;
+}
+
+.contents li span {
+	display: inline-block;
+	border-radius: 2px;
+	padding: 2px 6px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.contents li span {
+	background: #999;
+}
+
+.contents li.game span {
+	background: #74b5ca;
+}
+
+.contents li.theater span {
+	background: #f0b236;
 }
