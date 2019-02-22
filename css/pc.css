@@ -105,11 +105,12 @@ a {
 
 .contentsleft {
 	float: left;
-	width: 300px;
+	width: 260px;
 	height: 100%;
 	text-align: center;
 	background-color: #ddd;
 	padding: 20px 20px 40px 20px;
+	display: block;
 }
 
 .contentsleft img {
@@ -118,6 +119,7 @@ a {
 
 .contents .theater2nd , .game2nd  {
 	padding: 20px 20px 40px 20px;
+	display: block;
 }
 
 .contents h1 {
