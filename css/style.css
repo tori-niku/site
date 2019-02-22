@@ -1,2 +1,2 @@
-@import url(pc.css) screen and (orientation: landscape);
-@import url(mobile.css) screen and (orientation: portrait);
+@import url(/pc.css) screen and (orientation: landscape);
+@import url(/mobile.css) screen and (orientation: portrait);
