@@ -110,7 +110,6 @@ a {
 	min-width: 260px;
 	text-align: center;
 	background-color: #ddd;
-	padding: 20px 20px 40px 20px;
 	display: table-cell;
 }
 
@@ -119,7 +118,6 @@ a {
 }
 
 .contents .theater2nd , .game2nd  {
-	padding: 20px 20px 40px 20px;
 	display: table-cell;
 }
 
