@@ -101,17 +101,17 @@ a {
 
 .contents {
 	min-height: calc(100vh - 230px);
+	display: table;
 }
 
 .contentsleft {
 	float: left;
 	width: 20%;
 	min-width: 260px;
-	height: 100%;
 	text-align: center;
 	background-color: #ddd;
 	padding: 20px 20px 40px 20px;
-	display: block;
+	display: table-cell;
 }
 
 .contentsleft img {
@@ -120,8 +120,7 @@ a {
 
 .contents .theater2nd , .game2nd  {
 	padding: 20px 20px 40px 20px;
-	display: block;
-	float: right;
+	display: table-cell;
 }
 
 .contents h1 {
