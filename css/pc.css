@@ -59,7 +59,7 @@ a {
 
 .mainphoto .banner {
 	margin-top: 300px;
-	max-width: 320px;
+	max-width: 320px;  
 }
 
 .subphoto {
@@ -98,36 +98,69 @@ a {
 
 /* 共通 */
 
-h1 {
-	margin: 20px 0 4px 0;
-	clear: both;
+.contents {
+	min-height: calc(100vh - 230px);
+	padding: 20px 20px 40px 20px;
 }
 
-.contents h1.theaterh1 {
+.contents h1 {
+	clear: both;
+	margin: 20px 0 4px 0;
+	padding: 6px 0 6px 20px;
+	font-size: 1.2em;
+}
+
+.contents .theater h1 {
 	background: url(../img/icon_orange.png) left center;
 	background-size: 14px 14px;
 	background-repeat: no-repeat;
-	padding: 6px 0 6px 20px;
 }
 
-.contents h1.gameh1 {
+.contents .game h1 {
 	background: url(../img/icon_blue.png) left center;
 	background-size: 14px 14px;
 	background-repeat: no-repeat;
-	padding: 6px 0 6px 20px;
 }
 
-/* contents */
-
-.contents {
-	min-height: calc(100vh - 230px);
+.contents h2 {
+	font-size: 1.1em;
 }
 
-.contents .mainmenu  {
+.contents .theater h2 {
+	border-bottom: solid 1px #f0b236;
+	color: #dc9a16;
+}
+
+.contents .game h2 {
+	border-bottom: solid 1px #74b5ca;
+	color: #5197ae;
+}
+
+.contents iframe {
+	width: 100%;
+}
+
+.contents .theater a {
+	border-radius: 2px;
+	color: #fff;
+	background-color: #f0b236;
+	padding: 4px 10px;
+}
+
+.contents .game a {
+	border-radius: 2px;
+	color: #fff;
+	background-color: #74b5ca;
+	padding: 4px 10px;
+}
+
+/* index */
+
+.mainmenu  {
 	margin: 20px;
 }
 
-.contents .mainmenu a {
+.mainmenu a {
 	width: 100%;
 	padding: 20px 0;
 	background: #999;
@@ -136,34 +169,34 @@ h1 {
 	border-radius: 4px;
 } 
 
-.contents .mainmenu .theater {
+.mainmenu .theater {
 	width: 49%;
 	float: left;
 	margin-bottom: 20px;
 }
 
-.contents .mainmenu .game {
+.mainmenu .game {
 	width: 49%;
 	float: right;
 	margin-bottom: 20px;
 }
 
-.contents .mainmenu .theater  a {
+.mainmenu .theater  a {
 	background: #f0b236;
 	margin-bottom: 6px;
 }
 
-.contents .mainmenu .game  a {
+.mainmenu .game  a {
 	background: #74b5ca;
 	margin-bottom: 6px;
 }
 
-.contents ul {
+/* li関係 */
+
+ul {
 	clear: both;
 	margin: 20px;
 }
-
-/* li関係 */
 
 .contents li {
 	list-style: none;
