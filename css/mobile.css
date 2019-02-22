@@ -126,12 +126,12 @@ a {
 	font-size: 1.1em;
 }
 
-.contents .theater h2 {
+.contents .theater2nd h2 {
 	border-bottom: solid 1px #f0b236;
 	color: #dc9a16;
 }
 
-.contents .game h2 {
+.contents .game2nd h2 {
 	border-bottom: solid 1px #74b5ca;
 	color: #5197ae;
 }
@@ -140,14 +140,14 @@ a {
 	width: 100%;
 }
 
-.contents .theater a {
+.contents .theater2nd a {
 	border-radius: 2px;
 	color: #fff;
 	background-color: #f0b236;
 	padding: 4px 10px;
 }
 
-.contents .game a {
+.contents .game2nd a {
 	border-radius: 2px;
 	color: #fff;
 	background-color: #74b5ca;
