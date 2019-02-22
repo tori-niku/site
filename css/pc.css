@@ -110,11 +110,13 @@ a {
 }
 
 .contentsleft img {
-	max-width: 260px;
+	max-width: 220px;
 }
 
 .contents .theater2nd , .game2nd  {
 	padding: 20px 20px 40px 20px;
+	float: right;
+	width: 80%;
 }
 
 .contents h1 {
