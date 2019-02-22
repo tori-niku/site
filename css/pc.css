@@ -84,6 +84,7 @@ a {
 	text-align: center;
 	height: 120px;
 	padding-top: 20px;
+	clear: both;
 }
 
 .footer h1 {
@@ -105,8 +106,10 @@ a {
 .contentsleft {
 	float: left;
 	width: 20%;
+	height: 100%;
 	text-align: center;
-	background-color: #eee;
+	background-color: #ddd;
+	padding: 20px 20px 40px 20px;
 }
 
 .contentsleft img {
