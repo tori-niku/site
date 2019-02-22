@@ -112,6 +112,11 @@ a {
 	padding: 20px;
 }
 
+.contentsleft span {
+	color: #fff;
+	display: block;
+}
+
 .contents .theater2nd , .game2nd  {
 	padding: 20px 20px 40px 20px;
 }

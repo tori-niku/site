@@ -11,6 +11,7 @@ img {
 	margin: 0;
 	padding: 0;
 	line-height: 0;
+	max-width: 100%;
 }
 
 ul {
@@ -101,23 +102,27 @@ a {
 
 .contents {
 	min-height: calc(100vh - 230px);
+	width: 100%;
 	display: table;
 }
 
 .contentsleft {
-	float: left;
 	width: 20%;
 	min-width: 260px;
+	max-width: 300px;
 	text-align: center;
-	background-color: #ddd;
+	background-color: #eee;
+	padding: 20px;
 	display: table-cell;
 }
 
 .contentsleft img {
-	max-width: 220px;
+	max-width: 70%;
 }
 
 .contents .theater2nd , .game2nd  {
+	width: 80%;
+	padding: 20px;
 	display: table-cell;
 }
 
