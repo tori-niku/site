@@ -1,5 +1,5 @@
 body {
-background: #FFFFFF;
+background: #999;
 color: #666;
 margin: 0;
 padding: 0;
@@ -101,9 +101,10 @@ a {
 /* 共通 */
 
 .contents {
-	min-height: calc(100vh - 230px);
 	width: 100%;
 	display: table;
+	text-align: center;
+	background-color: #fff;
 }
 
 .contentsleft {
@@ -126,6 +127,7 @@ a {
 	width: 80%;
 	padding: 20px;
 	display: table-cell;
+	text-align: left;
 }
 
 .contents h1 {
@@ -221,6 +223,7 @@ a {
 ul {
 	clear: both;
 	margin: 20px;
+	text-align: left;
 }
 
 .contents li {
