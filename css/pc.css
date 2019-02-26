@@ -1,5 +1,5 @@
 body {
-background: #999;
+background: #ddd;
 color: #666;
 margin: 0;
 padding: 0;
@@ -27,6 +27,7 @@ a {
 
 .header {
 	height: 70px;
+	background-color: #fff;
 }
 
 .header .logo {
