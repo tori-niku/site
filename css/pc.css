@@ -223,6 +223,10 @@ a {
 	padding: 20px 0;
 }
 
+.bottom img {
+	max-width: 320px;
+}
+
 /* li関係 */
 
 ul {
