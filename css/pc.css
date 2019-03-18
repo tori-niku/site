@@ -219,6 +219,10 @@ a {
 	margin-bottom: 6px;
 }
 
+.bottom {
+	padding: 20px 0;
+}
+
 /* li関係 */
 
 ul {

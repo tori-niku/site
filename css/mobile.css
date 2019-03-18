@@ -11,7 +11,7 @@ img {
 	margin: 0;
 	padding: 0;
 	line-height: 0;
-	max-width: 100%;
+	max-width: 320px;
 }
 
 ul {
@@ -208,6 +208,11 @@ a {
 .mainmenu .game  a {
 	background: #74b5ca;
 	margin-bottom: 6px;
+}
+
+.bottom {
+	padding: 20px 0;
+	background: #ffffff;
 }
 
 /* li関係 */
