@@ -212,7 +212,13 @@ a {
 
 .bottom {
 	padding: 20px 0;
-	background: #ffffff;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+}
+
+.bottom img {
+	width: 80%;
 }
 
 /* li関係 */
