@@ -186,6 +186,7 @@ a {
 	text-align: center;
 	display: block;
 	border-radius: 4px;
+	clear: both;
 } 
 
 .mainmenu .theater {
