@@ -25,6 +25,7 @@ a {
 
 iframe {
 	border: none;
+	max-width: 80%;
 }
 
 /* header */
